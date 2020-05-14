@@ -1,14 +1,10 @@
 package com.blogsystemwithjpa.service;
 
-import java.util.Date;
 import java.util.List;
-import javax.annotation.PostConstruct;
-
-import org.hibernate.query.criteria.internal.expression.function.CurrentDateFunction;
+//import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.blogsystemwithjpa.domain.Blogger;
 import com.blogsystemwithjpa.domain.Story;
 import com.blogsystemwithjpa.repository.BloggerRepository;
 import com.blogsystemwithjpa.repository.StoryRepository;

@@ -8,8 +8,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
-import com.blogsystemwithjpa.repository.BloggerRepository;
-
 /**
 * This class represents a story entity in the DB.
 * @author Zed

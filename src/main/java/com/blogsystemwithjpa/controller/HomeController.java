@@ -3,17 +3,11 @@ package com.blogsystemwithjpa.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.blogsystemwithjpa.domain.Story;
-import com.blogsystemwithjpa.repository.StoryRepository;
 import com.blogsystemwithjpa.service.StoryService;
 
-import java.util.List;
 import java.util.Locale;
-import javax.servlet.http.HttpServletRequest;
 
 /**
 * This class is a controller layer, searches for views (html pages) when a request arrives.
