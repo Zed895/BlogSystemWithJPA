@@ -1,0 +1,4 @@
+insert into Blogger (id, age, name) VALUES (1, 38, 'Zoltan');
+insert into Blogger (id, age, name) VALUES (2, 21, 'John');
+insert into STORIES (id, title,content,posted,blogger_id) values (1, 'Test title', 'test content', '2020-05-10' , (select id FROM BLOGGER where name = 'Zoltan'));
+insert into STORIES (id, title,content,posted,blogger_id) values (2, 'Test title2', 'test content2', '2020-05-10' , (select id FROM BLOGGER where name = 'John'));
