@@ -65,7 +65,7 @@ public class StoryService {
 	}
 	
 //	/**
-//	 * Container calls it once when the service is intantiated.
+//	 * Container calls it once when the service is instantiated.
 //	 * Creates a story and a blogger in the HEAP, then JPA saves it via extended CrudRepository.
 //	 */
 //	@PostConstruct
